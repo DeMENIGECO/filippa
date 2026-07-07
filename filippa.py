@@ -11,4 +11,4 @@ if emoji_use == 1:
 elif emoji_use == 0:
     responses_dict = meta.ne_responses
 else:
-    ValueError(f"[Filippa] Valore uso emoji invalido: {emoji_use}\nLeggi: docs/ai/emoji_use.md")
+    raise ValueError(f"[Filippa] Valore uso emoji invalido: {emoji_use}\nLeggi: docs/ai/emoji_use.md")
