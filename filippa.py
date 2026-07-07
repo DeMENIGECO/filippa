@@ -34,12 +34,15 @@ deep = "[DeepAgent] " + ai
 #Leggi: docs/ai/start.md
 #NON TOCCARE!
 deepagent = False
-print(
-    "== AGENT INFO ==",
-    f"\nUso emoji: {str_use} | ",
-    "DeepAgent: Attivato" if deepagent else "DeepAgent: Disattivato",
-    "\n==============="
-)
+if debug:
+    print(
+        "== AGENT INFO ==",
+        f"\nUso emoji: {str_use} | ",
+        "DeepAgent: Attivato" if deepagent else "DeepAgent: Disattivato",
+        "\n==============="
+    )
+else:
+    pass
 
 while True:
     user_input = input(user.capitalize() + ": ")
