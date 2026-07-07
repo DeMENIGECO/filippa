@@ -6,7 +6,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/DeMENIGECO/filippa?color=blue)](https://github.com/DeMENIGECO/filippa/releases)
 [![Python](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/)
-[![License](https://img.shields.io/github/license/DeMENIGECO/filippa?color=green)](https://github.com/DeMENIGECO/filippa/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
 
