@@ -45,15 +45,17 @@ else:
     pass
 
 while True:
-    user_input = input(user.capitalize() + ": ")
+    user_input = input(f"{user.capitalize()}: ")
 
     if user_input == "startDeepAgent":
         deepagent = True
-        print('[Filippa] DeepAgent Avviato. Iniziata nuova sessione con ".::deep:true"' if debug else "DeepAgent Avviato")
+        print(
+            '[Filippa] DeepAgent Avviato. Iniziata nuova sessione con ".::deep:true"' if debug else "DeepAgent Avviato")
     else:
         outname = f"{deep}: " if deepagent else f"{ai}: "
-        if user_input.strip().lower() in responses_dict.keys:
-            print(outname + responses_dict.rispostachiavevalorebasato)
+        key = user_input.strip().lower()
+
+        if key in responses_dict:
+            print(outname + responses_dict[key])
         else:
             print(outname + "Non so rispondere!")
-    
