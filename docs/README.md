@@ -48,6 +48,7 @@ Vai alla documentazione UX:
 Tutta la documentazione disponibile:
 
 - [AI](ai/)
+- [Changelog](changelog.md)
 - [UX](ux/)
 
 ---
