@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filippa-api"
+version = "0.1.1"
+description = "A small and simple AI chatbot API written in Python"
+readme = "APIREADME.txt"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "DeMENIGECO"}
+]
+keywords = [
+    "ai",
+    "chatbot",
+    "artificial-intelligence",
+    "python"
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/DeMENIGECO/filippa"
+Repository = "https://github.com/DeMENIGECO/filippa"
+
+[tool.setuptools.packages.find]
+where = ["src"]
