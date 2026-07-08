@@ -3,7 +3,6 @@ class Bot:
         """Inizzializza il bot"""
         self.name = "filippa"
         self.emojiuse = 1
-        self.mode = 0
         return None
         
     def responses_dict(self):
@@ -30,7 +29,7 @@ class Bot:
             
     def ask(self, asked):
         """Chiede una domanda al bot"""
-        asked = asked.strip().upper()
+        asked = asked.strip().lower()
         if key in responses_dict():
             print(responses_dict[asked])
         else:
