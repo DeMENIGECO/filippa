@@ -31,7 +31,7 @@ class Bot:
         """Chiede una domanda al bot"""
         asked = asked.strip().lower()
         if asked in self.responses_dict():
-            print(responses_dict[asked])
+            print(self.responses_dict()[asked])
         else:
             print("Non so rispondere!")
         
