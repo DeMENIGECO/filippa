@@ -33,5 +33,8 @@ dependencies = []
 Homepage = "https://github.com/DeMENIGECO/filippa"
 Repository = "https://github.com/DeMENIGECO/filippa"
 
+[tool.setuptools]
+package-dir = {"" = "filippa-api"}
+
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["filippa-api"]
