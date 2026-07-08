@@ -77,7 +77,7 @@ La documentazione completa è disponibile nella cartella `docs/`.
 
 # Versione
 
-Versione attuale: v0.1.0
+Versione attuale: v0.1.1
 
 ---
 
