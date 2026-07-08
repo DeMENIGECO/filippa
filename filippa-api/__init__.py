@@ -22,7 +22,7 @@ class Bot:
         if self.emojiuse == 1:
             return me_responses
         elif self.emojiuse == 0:
-            return ne_emoji
+            return ne_responses
         else:
             raise ValueError("[FilippaAPI] Uso invalido di emoji: leggi docs/ai/emoji_use.md")
             return None
