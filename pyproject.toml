@@ -33,7 +33,7 @@ Homepage = "https://github.com/DeMENIGECO/filippa"
 Repository = "https://github.com/DeMENIGECO/filippa"
 
 [tool.setuptools]
-package-dir = {"" = "filippa-api"}
+package-dir = {"" = "filippa_api"}
 
 [tool.setuptools.packages.find]
 where = ["."]
