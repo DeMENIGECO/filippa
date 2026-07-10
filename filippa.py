@@ -1,7 +1,7 @@
 import meta
 
 """
-Filippa v0.1.1
+Filippa v0.1.2
 """
 
 #Uso delle emoji
