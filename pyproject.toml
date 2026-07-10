@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "filippa-api"
-version = "0.1.1"
+version = "0.1.2"
 description = "A small and simple AI chatbot API written in Python"
 readme = "APIREADME.txt"
 requires-python = ">=3.8"
@@ -37,4 +37,4 @@ Repository = "https://github.com/DeMENIGECO/filippa"
 package-dir = {"" = "filippa-api"}
 
 [tool.setuptools.packages.find]
-where = ["filippa-api"]
+where = ["."]
