@@ -1,7 +1,7 @@
 import meta
 
 """
-Filippa v0.1.5
+Filippa v0.1.6
 """
 
 #Uso delle emoji
@@ -12,6 +12,13 @@ emoji_use = 1
 #Leggi: docs/ai/debug.md
 #Disattivalo in produzione!
 debug = True
+
+#SDKAPI Config
+#ATTENZIONE: consigliato disattivare con poca RAM!
+sdkapi = True
+sdkapi_asleep_fac = 5
+sdkapi_j = None
+sdjapi_jfif = None
 
 # Gestione risposte
 #NON TOCCARE!
