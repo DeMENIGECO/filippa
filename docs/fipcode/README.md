@@ -1,6 +1,6 @@
 # FipCode Docs
 
-Documentazione relativa all'UX
+Documentazione relativa a FipCode
 
 ---
 
