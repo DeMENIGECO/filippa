@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<fipcode>
+    <category name="python">
+        <pull>
+            <prompt>Test Fipcode</prompt>
+            <out>✅ Fipcode testato</out>
+            <file>test.py</file>
+            <content>print("ok!")</content>
+        </pull>
+    </category>
+</fipcode>
