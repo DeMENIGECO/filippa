@@ -5,6 +5,12 @@
 ## 0.2
 
 <details>
+  <summary>0.2.1</summary>
+
+  - Bugfix e miglioramenti
+</details>
+
+<details>
   <summary>0.2.0</summary>
 
   - FipCode
