@@ -7,7 +7,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/DeMENIGECO/filippa?color=blue)](https://github.com/DeMENIGECO/filippa/releases)
 [![Python](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![FilippaAPI](https://img.shields.io/badge/FilippaAPI-On_PyPI-green.svg)](https://pypi.org/projects/filippa-api)
+[![FilippaAPI](https://img.shields.io/badge/FilippaAPI-On_PyPI-green.svg)](https://pypi.org/project/filippa-api)
 
 </div>
 
